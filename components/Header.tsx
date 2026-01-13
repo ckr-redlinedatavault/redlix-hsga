@@ -18,7 +18,7 @@ export default function Header() {
           <div className="flex flex-col max-w-md">
             <h1 className="text-xl font-black tracking-tight text-slate-900 sm:text-2xl md:text-3xl leading-[1.1]">
               Hindustan Scouts and Guides Association
-              <span className="block text-blue-700">Telangana, INDIA</span>
+              <span className="block text-blue-700">TELANGANA, INDIA</span>
             </h1>
             <span className="mt-1 text-[10px] font-bold uppercase tracking-[0.3em] text-zinc-400 md:text-[11px]">
               Telangana State Headquarters
