@@ -76,7 +76,7 @@ export default function Navbar() {
       style={{ top: "var(--header-height)" }}
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="flex h-12 items-center justify-between">
+        <div className="flex h-10 lg:h-12 items-center justify-between">
           
           {/* DESKTOP NAVIGATION */}
           <div className="hidden lg:flex items-center space-x-1">
@@ -143,7 +143,7 @@ export default function Navbar() {
           </div>
 
           {/* MOBILE TOGGLE BUTTON */}
-          <div className="flex lg:hidden w-full justify-between items-center py-2">
+          <div className="flex lg:hidden w-full justify-between items-center py-1">
              <span className="text-[11px] font-black uppercase tracking-[0.3em] opacity-90">Navigation Menu</span>
              <button 
                onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -157,7 +157,7 @@ export default function Navbar() {
 
       {/* MOBILE MENU */}
       {mobileMenuOpen && (
-        <div className="lg:hidden bg-[#660000] border-t border-white/10 max-h-[calc(100vh-120px)] overflow-y-auto">
+        <div className="lg:hidden bg-[#660000] border-t border-white/10 max-h-[calc(100vh-96px)] overflow-y-auto">
           <div className="px-5 py-6 space-y-1">
             {navItems.map((item, idx) => (
               <div key={idx} className="border-b border-white/5 last:border-0 pb-1">
