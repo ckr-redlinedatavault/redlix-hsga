@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import History from "@/components/History";
 import About from "@/components/About";
 import Footer from "@/components/Footer";
+import FloatingTag from "@/components/FloatingTag";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <About />
       </main>
       <Footer />
+      <FloatingTag />
     </div>
   );
 }
